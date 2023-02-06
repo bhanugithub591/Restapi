@@ -104,7 +104,6 @@ class DashboardController extends Controller
                 ['title' => 'Punch Quest', 'platform' => 'iPhone', 'score' => 9.3, 'genre' => 'Action', 'editors_choice' => 'Y'],
             ];
         //return response()->json($data);
-
          return view('cardview', compact('data'));
         }
 }

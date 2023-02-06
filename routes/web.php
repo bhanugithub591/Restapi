@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\DashboardController;
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,5 +20,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('dashboard', [DashboardControllaer::class, 'dashboard']);
+Route::get('dashboard', [DashboardController::class, 'dashboard']);
 
